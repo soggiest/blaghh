@@ -1,8 +1,6 @@
 ---
 title: Kubernetes Cluster Autoscaling in AWS
-lang: en
-date: 2019-03-16
-tags: autoscaling, AWS
+date: "2019-03-16"
 ---
 # Kubernetes Cluster Autoscaling in AWS
 
