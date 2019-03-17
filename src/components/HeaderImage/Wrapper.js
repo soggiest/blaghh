@@ -3,10 +3,10 @@ import styled from 'styled-components';
 const Wrapper = styled.div`
   border: 5px solid #3598db;
   border-radius: 50%;
-  height: 150px;
+  height: 200px;
   margin: 0 auto 15px auto;
   overflow: hidden;
-  width: 150px;
+  width: 200px;
 
   img {
     padding: 5px;
