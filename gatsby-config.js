@@ -24,7 +24,7 @@ module.exports = {
           {
             resolve: `gatsby-remark-images`,
             options: {
-              maxWidth: 700,
+              maxWidth: 800,
               linkImagesToOriginal: false,
               wrapperStyle: 'margin: 15px -30px !important',
             },
@@ -59,7 +59,7 @@ module.exports = {
         background_color: '#fff',
         theme_color: userConfig.primaryColor,
         display: 'minimal-ui',
-        icon: 'src/soggy-newspaper.png',
+        icon: 'src/main.jpg',
       },
     },
     `gatsby-plugin-offline`,
