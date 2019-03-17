@@ -11,4 +11,6 @@ module.exports = {
     github: 'https://github.com/soggiest',
     twitter: 'https://twitter.com/apinick',
   },
+	pathPrefix: '/',
+	siteUrl: 'https://soggy.space',
 };
