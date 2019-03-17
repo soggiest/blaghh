@@ -1,9 +1,9 @@
 ---
 title: Welcome!
-date: "2018-3-14"
+date: "2019-03-14"
 featuredImage: './featured.jpg'
 ---
 
-# Welcome to the blog
+# Welcome to my blog
 
-This is placeholder text atm
+This is a site I'm using as a repository of things that I think will be useful.
