@@ -69,7 +69,7 @@ func main() {
 
 	crdClient := dynClient.Resource(oofsGVR)
 
-	crd, errCrd := crdClient.Get("bigOof", metav1.GetOptions{})
+	crd, errCrd := crdClient.Get("bigoof", metav1.GetOptions{})
 	if errCrd != nil {
 		klog.Fatalf("Error getting CRD %v", errCrd)
 	}
