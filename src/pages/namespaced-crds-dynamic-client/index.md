@@ -29,7 +29,7 @@ type ElasticsearchClusterInterface interface {
 
 This piece of code was taken from the [ElasticSearch Operator](https://github.com/upmc-enterprises/elasticsearch-operator/), and yes, I asked first before using it.
 
-Creating an interface for your CRD is the proper discipline. However, what if you're writing a piece of code and you don't need all of the CRUD (create, read, update, delete) functions for your CRD, or you're feeling lazy and don't want to wire up a whole inferace and associated methods? 
+Creating an interface for your CRD is the proper discipline. However, what if you're writing a piece of code and you don't need all of the CRUD (create, read, update, delete) functions for your CRD, or you're feeling lazy and don't want to wire up a whole interferace and associated methods? 
 
 I mean, you could just write an interface that only has the methods you actually need, but, WHATEVER.
 
@@ -78,7 +78,7 @@ func main() {
 
 ```
 
-So, from this example we see a fairly simple mechanism for retrieving an `oof` Kind resource of the type `foo-bar.com` named `bigoof`. This works well if you're looking for a CRD that's scoped at the `Cluster` leverl. But, what if your CRD is scoped at the `Namespace`? Well, then you'll receive the following error:
+From this example we see a fairly simple mechanism for retrieving an `oof` Kind resource of the type `foo-bar.com` named `bigoof`. This works well if you're looking for a CRD that's scoped at the `Cluster` leverl. But, what if your CRD is scoped at the `Namespace`? Well, then you'll receive the following error:
 
 ```
 F0717 01:12:15.047145       8 main.go:96] Error getting CRD Namespace parameter required.
