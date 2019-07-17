@@ -78,7 +78,7 @@ func main() {
 
 ```
 
-From this example we see a fairly simple mechanism for retrieving an `oof` Kind resource of the type `foo-bar.com` named `bigoof`. This works well if you're looking for a CRD that's scoped at the `Cluster` leverl. But, what if your CRD is scoped at the `Namespace`? Well, then you'll receive the following error:
+From this example we see a fairly simple mechanism for retrieving an `oof` Kind resource of the type `foo-bar.com` named `bigoof`. This works well if you're looking for a CRD that's scoped at the `Cluster` level. But, what if your CRD is scoped at the `Namespace`? Well, then you'll receive the following error:
 
 ```
 F0717 01:12:15.047145       8 main.go:96] Error getting CRD Namespace parameter required.
