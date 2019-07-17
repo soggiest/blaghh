@@ -185,15 +185,15 @@ func main() {
         }
         klog.Infof("Got CRD: %v", crd)
 
-	resourceVer := crd.GetResourceVersion()
-
-	updateObj := NewOofs("bigoof", "crunchy", resourceVer)
-	crdUpdate, errUpdate := crdClient.Namespace("deep13").Update(updateObj, metav1.UpdateOptions{})
-	if errUpdate != nil {
-		klog.Fatalf("Error updating CRD", errUpdate)
-	}
-
-	klog.Infof("Updated CRD %v", crdUpdate)
+        resourceVer := crd.GetResourceVersion()
+        
+        updateObj := NewOofs("bigoof", "crunchy", resourceVer)
+        crdUpdate, errUpdate := crdClient.Namespace("deep13").Update(updateObj, metav1.UpdateOptions{})
+        if errUpdate != nil {
+        	klog.Fatalf("Error updating CRD", errUpdate)
+        }
+        
+        klog.Infof("Updated CRD %v", crdUpdate)
 }
 
 func NewOofs(name string, mode string, resourceVer string) *unstructured.Unstructured {
