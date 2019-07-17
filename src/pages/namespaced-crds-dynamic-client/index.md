@@ -1,3 +1,8 @@
+---
+title: Using Client-Go's dynamic client to operate namespaced CRDs 
+date: "2019-07-17"
+---
+
 # Using Client-Go's dynamic client to operate namespaced CRDs
 
 Custom Resource Definitions are a useful mechanism in Kubernetes that extends the K8S API to include new resource types. This helps a lot when writing your own controllers for Kubernetes and need to persist data outside of the controller itself. Traditionally, creating your own CRDs meant that you must implement a new resource interface similar to this:
